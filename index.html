@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>NaveDigital - Agencia digital</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/icons/logo-favicon.ico" />
+    <script src="https://kit.fontawesome.com/e889574b27.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <!--Logo + nav-->
+    <header class="header" >
+        <div class="header__menu">
+            <a href="./index.html">
+                <img src="./assets/icons/logo-nave-espacial.png" class="menu__logo"alt="logo-NaveDigital" />
+            </a>
+            <nav>
+                <ul class="menu__navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Pages/servicios.html">Servicios</a></li>
+                    <li><a href="./Pages/proyectos.html">Proyectos</a></li>
+                    <li><a href="./Pages/contacto.html">Contacto</a></li>
+                    <li><a href="./Pages/nosotros.html">Nosotros</a></li>
+                </ul>
+                <span>
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </nav>
+        </div>
+    </header>
+    <!--Termina logo + nav-->
+    <!--Informacion del sitio-->
+    <main class="main">
+        <!--Inicia jumbotron-->
+        <section class="jumbotron" >
+            <div class="jumbotron__box">
+                <div class="jumbotron__info">
+                    <h1>Incrementa el valor de tu negocio</h1>
+                    <p>Creamos estrategias tan únicas como tu marca, potenciando tus fortalezas y logrando que la audiencia se enamore de ti, enfocados en el crecimiento de tu negocio en internet. </p>
+                    <button type="button" class="button__contact">
+                        <a href="./Pages/contacto.html" class="button__a">Contactanos ahora</a>
+                    </button>
+                    <button type="button" class="button__whatsapp">
+                        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" class="button__aw">Hablar por WhatsApp</a>
+                    </button>
+                </div>
+                <br />
+                <div>
+                    <img class="jumbotron__image" src="./assets/image/asesor-marketing.png" alt="vendedor navedigital">
+                </div>
+            </div>
+        </section>
+        <!--Termina jumbotron-->
+        <!--Inicia Informacion de servicios-->
+        <section class="servicios">
+            <h2>Conoce nuestros servicios</h2>
+            <div class="servicios__contenedor">
+                <article class="contenedor__card">
+                    <a href="./Pages/servicios.html">
+                        <img src="./assets/image/Diseno-de-paginas-web-Cancun-1.jpg" alt="diseño de paginas web - cancun" />
+                    </a>
+                    <h3>Diseño de páginas web</h3>
+                    <p>Realizamos su pagina web con perfecto estilo y diseño ya sea para comercio electrónico o curricular…</p>
+                    <a href="./Pages/servicios.html">Más información...</a>
+                </article>
+                <article class="contenedor__card">
+                    <a href="./Pages/servicios.html">
+                        <img src="./assets/image/SEO-web-cancun-1.jpg" alt="SEO - Cancun" />
+                    </a>
+                    <h3>Posicionamiento web - SEO</h3>
+                    <p>Te ayudamos a posicionar tu sitio web en google, para que llegue trafico de manera orgánica, </p>
+                    <a href="./Pages/servicios.html">Más información...</a>
+                </article>
+                <article class="contenedor__card">
+                    <a href="./Pages/servicios.html">
+                        <img src="./assets/image/Redes-sociales-cancun.jpg" alt="Redes sociales - Cancun" />
+                    </a>
+                    <h3>Redes sociales</h3>
+                    <p>Contamos con un equipo de expertos community managers en el manejo de redes sociales basándonos en un plan de marketing digital</p>
+                    <a href="./Pages/servicios.html">Más información...</a>
+                </article>
+            </div>
+        </section>
+        <!--Termina Informacion de servicios-->
+        <!--Inicia Contacto-->
+        <section class="contacto">
+            <div class="contacto__box">
+                <div class="contacto__info">
+                    <h2>Contáctanos</h2>
+                    <h3>Somos la mejor opción para ser tu agencia digital</h3>
+                    <p>Nos especializamos en generar estrategias de mercadotecnia y publicidad efectivas y nuestro principal enfoque es generar valor en las campañas de nuestros clientes.</p>
+                </div>
+                <div class="contacto__form">
+                    <form action="">
+                        <!-- formularios / texto -->
+                        <div class="user">
+                            <div class="user__inputbox">
+                                <label class="user__inputbox--details" for="name">Nombre</label>
+                                <input type="text" id="name" name="nombre" placeholder="   Ingresa tu nombre..." />
+                            </div>
+                            <div class="user__inputbox">
+                                <label class="user__inputbox--details" for="lastname">Apellido</label>
+                                <input type="text" name="lastname" id="lastname" placeholder="   Ingresa tu apellido..." />
+                            </div>
+                            <div class="user__inputbox">
+                                <label class="user__inputbox--details" for="email">Correo</label>
+                                <input type="email" id="email" name="correo" placeholder="   Ingresa tu email" />
+                            </div>
+                            <div class="user__inputbox">
+                                <label class="user__inputbox--details" for="phone">Teléfono</label>
+                                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="   Ingresa tu telefono..." />
+                            </div>
+                            <div class="user__textbox">
+                                <label class="user__inputbox--details" for="mensaje">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" rows="10">   Ingresa tu mensaje...</textarea>
+                            </div>
+                        </div>
+                        <!-- formularios / seleccionables -->
+                        <div class="select">
+                            <div class="select__selectbox">
+                                <label class="select__selectbox--bold" for="pais">Ingresa tu pais</label>
+                                <select name="pais" id="pais">
+                                    <option value="mexico">Mexico</option>
+                                    <option value="colombia">Colombia</option>
+                                    <option value="argentina">Argentina</option>
+                                    <option value="españa">España</option>
+                                </select>
+                            </div>
+                            <div class="select__selectbox">
+                                <fieldset>
+                                    <legend class="select__selectbox--bold">Yo soy...</legend>
+                                    <label for="empresa">Empresa</label>
+                                    <input type="radio" name="grupo" id="empresa" />
+                                    <label for="independiente">Independiente</label>
+                                    <input type="radio" name="grupo" id="independiente" />
+                                </fieldset>
+                            </div>
+                            <div class="select__selectbox">
+                                <label for="newsletter" >Suscribete a nuestro newsletter</label>
+                                <input type="checkbox" id="newsletter" checked />
+                            </div>
+                            <div class="select__selectbox">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Termina Contacto-->
+    </main>
+    <!--Termina Informacion del sitio-->
+    <!--Inicia Footer-->
+    <footer class="footer">
+        <Section class="footer__section">
+            <!--Inicia 1/3 footer-->
+            <div class="footer__info">
+                <h4>Agencia de marketing digital</h4>
+                <p>Servicios y soluciones integrales para cualquier negocio.</p>
+                <p>Contáctenos hoy mismo para cotizar su proyecto.</p>
+            </div>
+            <!--Termina 1/3 footer-->
+            <!--Inicia 2/3 footer-->
+            <div class="footer__service" >
+                <h4>Nuestros servicios</h4>
+                <ul>
+                    <li>Diseño de páginas web</li>
+                    <li>Posicionamiento web</li>
+                    <li>Redes sociales</li>
+                </ul>
+            </div>
+            <!--Termina 2/3 footer-->
+            <!--Inicia 3/3 footer-->
+                <!--Inicia footer 3/3 Contacto-->
+            <div class="footer__contact">
+                <div class="contact__number">
+                    <ul>
+                        <li>
+                            <a href="https://web.whatsapp.com/">
+                                <i class="fa-brands fa-whatsapp icono"></i> +529900000000
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@navedigital.com">
+                                <i class="fa-solid fa-envelope icono"></i> info@navedigital.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Termina footer 3/3 Contacto-->
+                <!--Inicia footer 3/3 - Iconos redes sociales-->
+                <div class="contact__redes">
+                    <ul>
+                        <li>
+                            <a href="https://es-la.facebook.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook icono"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-twitter icono"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-youtube icono"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram icono"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Termina footer 3/3 - Iconos redes sociales-->
+            </div>
+            <!--Termina 3/3 footer-->
+        </Section>
+    </footer>
+    <!--Termina Footer-->
+</body>
+</html>
