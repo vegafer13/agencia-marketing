@@ -117,6 +117,7 @@ button{
     border-color: white;
     padding:10px;
     border-width: 1px;
+    transition: .3s;
 }
 
 .button__whatsapp{
@@ -127,6 +128,7 @@ button{
     border-color: rgb(11, 194, 11);
     padding:10px;
     border-width: 1px;
+    transition: .3s;
 }
 
 
@@ -168,6 +170,7 @@ button{
     padding: 40px 20px;
     margin: 15px;
     color: black;
+    transition: 0.3s;
 }
 
 .contenedor__card img{
@@ -303,6 +306,7 @@ button{
     border: solid;
     border-color: #646FD4;
     padding:10px 40px;
+    transition: .3s;
 }
 
 
@@ -871,6 +875,7 @@ h4{
 .button__contact:hover{
     background-color: white;
     border-color: #646FD4;
+    transform: translateY(-10px);
 }
 
 .button__a:hover{
@@ -879,6 +884,7 @@ h4{
 
 .button__whatsapp:hover{
     background-color:white;
+    transform: translateY(-10px);
 }
 
 .button__aw:hover{
@@ -890,4 +896,9 @@ h4{
     color: white;
     background-color: #242F9B;
     border-color: white;
+    transform: translateY(-10px);
+}
+
+.contenedor__card:hover{
+    transform: translateY(-20px);
 }
