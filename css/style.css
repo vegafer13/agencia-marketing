@@ -418,7 +418,6 @@ h4{
     margin:  50px 0;
     display: flex;
     align-items: center;
-    text-align: center;
     box-shadow: 10px 10px 0px 2px #646FD4;
     border: solid #646FD4 1px;
     border-radius: 10px;
@@ -430,6 +429,7 @@ h4{
 
 .infoserv article h2{
     margin: 0 0 20px;
+    text-align: center;
 }
 
 .infoserv article img{
@@ -456,15 +456,6 @@ h4{
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
 }
-
-/* css de logos de empresas con flexbox
-.empresas{
-    max-width: 1200px ;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-} */
 
 .empresas div{
     margin: 30px;
@@ -791,7 +782,14 @@ h4{
     .contenedor__card{
         padding: 30px;
     }
-     
+
+    /* Estilos para mobile de la seccion contacto index */
+    
+    .select{
+        margin: 0 50px;
+        
+    }
+
     /* Estilos en mobile para el footer */
 
     .footer__section{
