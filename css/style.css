@@ -87,7 +87,7 @@ button{
 
 .jumbotron{
     /* background-color: #646FD4; */
-    background: linear-gradient(45deg, #242F9B, #646FD4);
+    background-image: linear-gradient(225deg, #7a7cc7 0, #24459b 50%, #001871 100%);
     height: 500px;
 }
 
@@ -197,7 +197,7 @@ button{
 
 .contacto{
     padding: 50px 0px;
-    background: linear-gradient(45deg, #242F9B, #646FD4);
+    background-image: linear-gradient(225deg, #7a7cc7 0, #24459b 50%, #001871 100%);
 }
 
 .contacto__box{
@@ -321,7 +321,7 @@ h4{
 }
 
 .footer {
-    background-color: #242F9B;
+    background-image: linear-gradient(225deg, #7a7cc7 0, #24459b 50%, #001871 100%);
     color: white;
 }
 
@@ -383,7 +383,7 @@ h4{
 
 
 .cabecera{
-    background: linear-gradient(45deg, #242F9B, #646FD4);
+    background-image: linear-gradient(225deg, #7a7cc7 0, #24459b 50%, #001871 100%);
     color: white;
 }
 
@@ -467,7 +467,7 @@ h4{
 }
 
 .logros{
-    background-color: #ad3c60;
+    background-image: linear-gradient(225deg, #d57578 0, #cc6673 16.67%, #be536a 33.33%, #ad3b5f 50%, #9b1f55 66.67%, #8b0050 83.33%, #7e004e 100%);
 }
 
 .logros__icons{
@@ -548,7 +548,7 @@ h4{
 }
 
 .nosotrosinf {
-    background-color: #ad3c60;
+    background-image: linear-gradient(225deg, #d57578 0, #cc6673 16.67%, #be536a 33.33%, #ad3b5f 50%, #9b1f55 66.67%, #8b0050 83.33%, #7e004e 100%);
 }
 
 .nosotrosinf__box{
@@ -894,3 +894,12 @@ h4{
 .contenedor__card:hover{
     transform: translateY(-20px);
 }
+
+/* Color primario
+color:#242f9b ;
+
+Color secundario
+color:#646fd4 ;
+
+Color tercero
+color:#ad3c60 ; */
