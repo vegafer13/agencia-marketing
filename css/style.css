@@ -86,7 +86,8 @@ button{
 /* Inician estilos del jumbotron */
 
 .jumbotron{
-    background-color: #646FD4;
+    /* background-color: #646FD4; */
+    background: linear-gradient(45deg, #242F9B, #646FD4);
     height: 500px;
 }
 
@@ -196,7 +197,7 @@ button{
 
 .contacto{
     padding: 50px 0px;
-    background-color: #646FD4;
+    background: linear-gradient(45deg, #242F9B, #646FD4);
 }
 
 .contacto__box{
@@ -382,7 +383,7 @@ h4{
 
 
 .cabecera{
-    background-color: #646FD4;
+    background: linear-gradient(45deg, #242F9B, #646FD4);
     color: white;
 }
 
